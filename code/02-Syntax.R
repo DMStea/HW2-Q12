@@ -1,20 +1,20 @@
 ## 02-Syntax.R
 # Code from 02-subsetting
 # library(ggplot2)
-
+#annotation 1
 x <- c(0, 0, 0, 0, 1, 0 ,0)
 y <- x
 y
 
 # Subsetting
-
+#annotation 2
 vec <- c(6, 1, 3, 6, 10, 5)
 df <- data.frame(
   name = c("John", "Paul", "George", "Ringo"),
   birth = c(1940, 1942, 1943, 1940), 
   instrument = c("guitar", "bass", "guitar", "drums")
 )
-
+#annotation 3
 df[2,3]
 df[c(2,4),c(2,3)]
 df[c(2,4),3]
